@@ -56,7 +56,7 @@ tsg-webdev-p03-Unaisah-Najam/
 
 ## Tools & technologies
 
-HTML5 · CSS3 · Flexbox · VS Code · Google Fonts · Font Awesome · Git & GitHub · Netlify / Vercel
+HTML5 · CSS3 · Flexbox · VS Code · Google Fonts · Font Awesome · Git & GitHub ·Vercel
 
 ## Credits
 
