@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SecureBytes — a beginner-friendly tech and cybersecurity blog by Unaisah Najam.">
+  <title>Home | SecureBytes</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- One shared stylesheet for every page -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER (identical on all pages) ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="./index.html" class="logo"><i class="fa-solid fa-shield-halved"></i> Secure<span>Bytes</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu"><i class="fa-solid fa-bars"></i></label>
+
+      <ul class="nav-links">
+        <li><a href="./index.html" class="active">Home</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <span class="hero-tag"><i class="fa-solid fa-terminal"></i> Tech &amp; Cybersecurity Blog</span>
+          <h1>Making online safety <span>simple</span> for everyone.</h1>
+          <p>Hi, I'm Unaisah — an IT graduate writing plain-English guides on cybersecurity, networks and the tech we use every day.</p>
+          <div class="hero-buttons">
+            <a href="./blog.html" class="btn btn-primary">Read the Blog</a>
+            <a href="./contact.html" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./images/hero.svg" alt="Illustration of a laptop protected by a shield">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SHORT INTRO ===== -->
+    <section class="section intro">
+      <div class="container">
+        <h2 class="section-title">What you'll find here</h2>
+        <p class="section-subtitle">Short, practical posts — no jargon walls.</p>
+
+        <div class="intro-grid">
+          <div class="intro-item">
+            <i class="fa-solid fa-lock"></i>
+            <h3>Security Basics</h3>
+            <p>Passwords, two-factor authentication and staying safe from scams.</p>
+          </div>
+          <div class="intro-item">
+            <i class="fa-solid fa-network-wired"></i>
+            <h3>Networking</h3>
+            <p>How the internet actually moves your data, explained step by step.</p>
+          </div>
+          <div class="intro-item">
+            <i class="fa-solid fa-code"></i>
+            <h3>Learning Tech</h3>
+            <p>Notes from my own journey through web development and IT.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LATEST POSTS (links to blog) ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Latest posts</h2>
+        <p class="section-subtitle">A quick look at what's new on the blog.</p>
+
+        <div class="posts">
+          <article class="post-card">
+            <img src="./images/post-passwords.svg" alt="Padlock with password dots">
+            <div class="post-body">
+              <div class="post-meta">
+                <span><i class="fa-regular fa-calendar"></i> 20 Oct 2026</span>
+                <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+              </div>
+              <h3>Strong Passwords Without the Headache</h3>
+              <p>Why "P@ssw0rd" isn't fooling anyone, and how passphrases and password managers make life easier.</p>
+              <a href="./blog.html" class="read-more">Read on the blog <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img src="./images/post-phishing.svg" alt="Envelope with a fishing hook">
+            <div class="post-body">
+              <div class="post-meta">
+                <span><i class="fa-regular fa-calendar"></i> 13 Oct 2026</span>
+                <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+              </div>
+              <h3>How to Spot a Phishing Message</h3>
+              <p>Five warning signs that an email, SMS or WhatsApp message is trying to steal your details.</p>
+              <a href="./blog.html" class="read-more">Read on the blog <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="center">
+          <a href="./blog.html" class="btn btn-outline">View all posts</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER (identical on all pages) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 SecureBytes by Unaisah Najam. </p>
+      <div class="footer-social">
+        <a href="https://github.com/UnaisahNajam" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https:linkedin.com/in/unaisah-najam-77894b395" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="./contact.html" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
