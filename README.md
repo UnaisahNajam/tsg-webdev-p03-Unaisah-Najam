@@ -5,7 +5,7 @@ Author: Unaisah Najam
 
 A three-page tech and cybersecurity blog built with plain HTML5 and CSS3 (Flexbox). All pages share one navigation bar, one footer and one stylesheet.
 
-- **Live site:** _add your Netlify / Vercel link here_
+- **Live site:** https://tsg-webdev-p03-unaisah-najam.vercel.app/
 - **Repository:** https://github.com/UnaisahNajam/tsg-webdev-p03-Unaisah-Najam
 
 ## Pages
